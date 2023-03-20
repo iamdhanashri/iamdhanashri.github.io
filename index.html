@@ -31,12 +31,12 @@
     <div class="max-width">
       <div class="logo"><a href="#">Dhanashri<span>Ahire</span></a></div>
       <ul class="menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#project">Projects</a></li>
-        <li><a href="#contact">Contact Me</a></li>
-        <li><a href="Dhanashri Ahire Resume.pdf" download="Dhanashri Ahire Resume" onclick="window.open('')">Resume</a>
+        <li><a  class="nav-link home" href="#home">Home</a></li>
+        <li><a class="nav-link about" href="#about">About Me</a></li>
+        <li><a  class="nav-link skills" href="#skills">Skills</a></li>
+        <li><a class="nav-link projects" href="#project">Projects</a></li>
+        <li><a class="nav-link contact" href="#contact">Contact Me</a></li>
+        <li><a class="nav-link resume" href="Dhanashri Ahire Resume.pdf" download="Dhanashri Ahire Resume" onclick="window.open('')">Resume</a>
         </li>
       </ul>
       <!-- <div class="menu-btn">
@@ -48,8 +48,8 @@
 
   <!-- home -->
   <section class="header-container" id="home">
-    <img class="profile-image" src="pictures/myPic.jpg" alt="Professional Pic" />
-    <h1>Hi, I'm Dhanashri Ahire</h1>
+    <img class="profile-image home-img"  src="pictures/myPic.jpg" alt="Professional Pic" />
+    <h1  id="user-detail-name" >Hi, I'm Dhanashri Ahire</h1>
 
     <div class="content-text">
       <h3>I'm Backend Developer</h3>
@@ -61,7 +61,7 @@
             <a href="Dhanashri Ahire Resume.pdf" download="Dhanashri Ahire Resume"
             onclick="window.open('')">Resume</a>
         </h2> -->
-    <button id="resumeBtn">
+    <button  id="resume-button-1">
       <a style="text-decoration: none;" href="Dhanashri Ahire Resume.pdf" download="Dhanashri Ahire Resume"
         onclick="window.open('')">Resume</button>
   </section>
@@ -77,7 +77,7 @@
 
     <div class="row span-1-of-2">
       <div class="about-me">
-        <div class="feature-detail">
+        <div  id="user-detail-intro" class="feature-detail">
           <p>Hey, My name is Dhanashri Ahire.
 
             Currently, I have expertise in HTML, CSS, JavaScript, NodeJS ExpressJS, and MongoDB.
@@ -107,7 +107,7 @@
       <h1 style="font-size: 50px; padding-top: 100px; text-align: center; margin-bottom: 50px;">PROJECTS</h1>
 
       <!-- <h2 class="title">Projects</h2> -->
-      <div class="project1">
+      <div class="project1"  class="project-card">
         <div class="left">
           <a href="https://mailtrap.netlify.app/"> <img class="img"
               src="https://user-images.githubusercontent.com/82109628/208608940-e2f0b84e-0996-41d1-866b-20e44a597903.png"
@@ -115,14 +115,14 @@
 
         </div>
         <div class="right">
-          <div class="head">Mailtrap.io </div>
-          <div class="sub-head"><a href="https://github.com/iamdhanashri/-average-alarm-4307" target="_blank"><i
-                class="fa fa-github-square"></i> Github</a> <a
-              href="https://drive.google.com/file/d/1za7db1_1iX3Jmsan56yair4P_AbtkEYp/view" target="_blank"><i
+          <div class="head" class="project-title">Mailtrap.io </div>
+          <div class="sub-head" class="project-github-link"><a href="https://github.com/iamdhanashri/-average-alarm-4307" target="_blank"><i
+                class="fa fa-github-square"></i> Github</a> <a  class="project-deployed-link"
+                href="https://mailtrap.netlify.app/" target="_blank"><i
                 class="fa fa-desktop"></i> Deploy Link</a></div>
-          <p>Mailtrap.io . An online website to sort and Control Emails <br> Collaborative project developed along with
+          <p class="project-description"> Mailtrap.io . An online website to sort and Control Emails <br> Collaborative project developed along with
             five team members in 5 days.</p>
-          <div class="sub-head2">Tech Stacks <br>
+          <div class="sub-head2"  class="project-tech-stack">Tech Stacks <br>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="HTML">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="CSS">
@@ -132,21 +132,21 @@
         </div>
       </div>
 
-      <div class="project1">
+      <div class="project1"  class="project-card">
         <div class="left">
           <a href="https://lucky-queijadas-f6b0ce.netlify.app/"> <img  class="img"
               src="https://user-images.githubusercontent.com/112760057/214030990-ccea2146-dd3e-4507-a6f5-2d6dc23c66c7.png"
               alt=""></a>
 
         </div>
-        <div class="right">
-          <div class="head">Fashionista clone</div>
-          <div class="sub-head"><a href="https://github.com/iamdhanashri/tedious-view-7935" target="_blank"><i
-                class="fa fa-github-square"></i> Github</a><a href="https://dermstore-project-clone.netlify.app/"
+        <div class="right"  class="project-card">
+          <div class="head" class="project-title">Fashionista clone</div>
+          <div class="sub-head" class="project-github-link"><a href="https://github.com/iamdhanashri/tedious-view-7935" target="_blank"><i
+                class="fa fa-github-square"></i> Github</a><a href="https://lucky-queijadas-f6b0ce.netlify.app/"
               target="_blank"> <i class="fa fa-desktop" ></i> Deploy Link</a></div>
-          <p>This is an online store from where a user can purchase different fashionable products of there choice. <br>
+          <p class="project-description">This is an online store from where a user can purchase different fashionable products of there choice. <br>
             Collaborative project developed along with five team members in 5 days.</p>
-          <div class="sub-head2">Tech Stacks <br>
+          <div class="sub-head2"  class="project-tech-stack">Tech Stacks <br>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="HTML">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="CSS">
@@ -155,21 +155,21 @@
         </div>
       </div>
 
-      <div class="project1">
+      <div class="project1" class="project-card">
         <div class="left">
-          <a href="https://dhanashri-world-beauty-02fac0.netlify.app/"> <img class="img"
+          <a  class="project-deployed-link" href="https://dhanashri-world-beauty-02fac0.netlify.app/"> <img class="img"
               src="https://github.com/iamdhanashri/affectionate-night-3092/blob/main/photo/home.png?raw=true"
               alt=""></a>
 
         </div>
         <div class="right">
-          <div class="head">World Beauty</div>
-          <div class="sub-head"><a href="https://github.com/iamdhanashri/affectionate-night-3092" target="_blank"><i
-                class="fa fa-github-square"></i> Github</a><a href="https://weatherapp-tusharkadam7671.netlify.app/"
+          <div class="head" class="project-title">World Beauty</div>
+          <div class="sub-head" class="project-github-link"><a href="https://github.com/iamdhanashri/affectionate-night-3092" target="_blank"><i
+                class="fa fa-github-square"></i> Github</a><a  class="project-deployed-link" href="https://dhanashri-world-beauty-02fac0.netlify.app/"
               target="_blank"> <i class="fa fa-desktop" onclick="deploy3()"></i> Deploy Link</a></div>
-          <p>It is an online retail store for the day to day and special occasion need of the Makeup, Skin care, Hair
+          <p class="project-description">It is an online retail store for the day to day and special occasion need of the Makeup, Skin care, Hair
             care, Personal care, <br> individual project developed in 5 days.</p>
-          <div class="sub-head2">Tech Stacks <br>
+          <div class="sub-head2"  class="project-tech-stack">Tech Stacks <br>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="HTML">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="CSS">
@@ -189,12 +189,13 @@
     <div class="container  flexf">
         <div class="contact-left">
            
-            <p><a href="mailto:rahul9332935@gmail.com"><i class="fa-solid fa-paper-plane"></i>
+            <p><a id="contact-email" href="mailto:rahul9332935@gmail.com"><i class="fa-solid fa-paper-plane"></i>
                     Iamdhanashriahire@gmail.com</a></p>
-            <p> <a href="tel:+91 9075910478"> <i class="fa-solid fa-square-phone"></i>+91 9075910478</a></p>
+            <p> <a  id="contact-phone" href="tel:+91 9075910478"> <i class="fa-solid fa-square-phone"></i>+91 9075910478</a></p>
             <div class="social-icons">
-                <a target="_blank" href="https://github.com/iamdhanashri"><i class="fa-brands fa-github"></i></a>
-                <a target="_blank" href="https://www.linkedin.com/in/dhanashri-ahire-374397269/"><i
+                <a target="_blank" id="contact-github" href="https://github.com/iamdhanashri"><i class="fa-brands fa-github"></i></a>
+                <a target="_blank" id="contact-linkedin"
+                href="https://www.linkedin.com/in/dhanashri-ahire-374397269/"><i
                         class="fa-brands fa-linkedin"></i></a> <br>
                
             </div>
