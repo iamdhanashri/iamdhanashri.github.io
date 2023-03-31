@@ -257,6 +257,59 @@ html {
 }
 
 
+/* skill */
+#tech_stack{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tags{
+  font-size: 40px;
+  margin: auto;
+  text-align: center;
+}
+.line{
+  width: 5%;
+  margin: 5px auto;
+  height: 5px;
+  background-color: #facf0f;
+  border-radius: 2px;
+}
+.about_the_section{
+  width: 60%;
+  font-size: 20px;
+  margin: 20px auto 60px;    
+  text-align: center;
+}
+#tech{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 60px 40px;
+  /* border: 1px solid; */
+}
+#tech>div{
+  width: 40%;
+  height: 100%;
+  margin: auto;
+  display: flex;    
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  /* border:1px solid #dcdad0; */
+}
+#tech>div>img{
+  width:70%;
+  height: 100%;    
+}
+
+
+
 /* project section ------------------------------------------------ */
 
 .project{
