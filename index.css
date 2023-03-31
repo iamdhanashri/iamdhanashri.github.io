@@ -150,6 +150,14 @@ html {
   margin-top: 50px;
   cursor: pointer;
 }
+#resume-button-2 {
+  color: red;
+  width: 150px;
+  height: 50px;
+  text-decoration: none;
+  margin-top: 50px;
+  cursor: pointer;
+}
 
 #resume:hover {
   transition: var(--transition);
