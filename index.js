@@ -1,10 +1,4 @@
 
-// function resumeDownload(){
-
-//     window.open(
-//         "https://drive.google.com/file/d/1tTEstrhGrt3Qu95MDwSHQJH_BxyEF2qj/view?usp=sharing"
-//       );
-// }
 
 
 
